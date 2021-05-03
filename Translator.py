@@ -1,3 +1,5 @@
+# Compile this file if you want to launch the application
+
 import tkinter
 from tkinter import ttk, messagebox
 from Traducteur import Traduction
