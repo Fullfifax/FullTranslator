@@ -52,7 +52,7 @@ insertText.config(yscrollcommand = scroll.set)
 
 #---------------------------------------------------------------------------------------------------------
 
-button = tkinter.Button(application, text = "Traduire",  
+button = tkinter.Button(application, text = "Translate",
 						bg = "white", fg = "teal", font = ("Arial", 12), command = get)
 button.place(relx = 0.40, rely = 0.49, width = 80, anchor = "n")
 
@@ -84,7 +84,7 @@ frameMenu = tkinter.Frame(application, bg = "teal", bd = 5)
 frameMenu.pack(fill = tkinter.BOTH, side = "right")
 
 def show_info():
-	messagebox.showinfo("About", "Fulltranslator is a simple translator application developped by Fullfifax")
+	messagebox.showinfo("About", "Fulltranslator is a simple translator application which contains approximately more than 100 languages. The maximum character limit on a single text is 15k. Googletrans (back-end of this app) is licensed under the MIT License ")
 
 menu1 = tkinter.Button(frameMenu, text = "About", fg = "teal", font = ("Arial", 10),
 						bg = "white", width = 14, command = show_info)
