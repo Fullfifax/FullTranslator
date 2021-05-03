@@ -12,8 +12,8 @@ class Traduction():
 			self.translated = self.traduire.translate(self.txt, src = self.src, dest = self.dest)
 		except:
 			self.translated = self.traduire.translate(self.txt)
-		self.ttext = self.translated.text
-		return self.ttext
+		self.text = self.translated.text
+		return self.text
 
 
 
