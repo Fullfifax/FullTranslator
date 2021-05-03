@@ -1,6 +1,6 @@
 import tkinter
 from tkinter import ttk, messagebox
-from traducteur import Traduction 
+from Traducteur import Traduction
 
 
 application = tkinter.Tk()
