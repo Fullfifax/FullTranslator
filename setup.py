@@ -15,7 +15,7 @@ executables = [cx_Freeze.Executable("Translator.py", base=base, icon = "icon.ico
 cx_Freeze.setup(
 	name = "Fulltranslator reflect v1.0",
 	options = {"build_exe" : {"packages" : ["tkinter", "googletrans"], 
-							  "include_files" : ["icon.ico", "traducteur.py"]}},
+							  "include_files" : ["icon.ico", "Traducteur.py"]}},
 	version = "0.01",
 	description  = "Fulltranslator reflect est un logiciel de traduction automatique",
 	executables = executables
