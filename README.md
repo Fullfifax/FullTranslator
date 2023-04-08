@@ -1,4 +1,4 @@
-### FullTranslator is a simple application desktop online. 
+### FullTranslator is a simple translation application desktop online. 
 - It allows you to translate a few text which contains approximately 15k chars.
 - Prerequisites:
   - python3
